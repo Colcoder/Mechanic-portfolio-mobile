@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+.landing-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    height: 100vh; /* if you don't want it to take up the full screen, reduce this number */
+    overflow: hidden;
+    background-size: cover !important;
+    background: url("../IMAGES/green-car.jpg") no-repeat center center scroll;
+  }
+
+  #name-intro{
+    color:white;
+    font-weight: 1000;
+    font-size: xx-large;
+    
+  }
+
+  .about-section{
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    margin-bottom: 2 rem;
+    margin-top: 2 rem;
+  }
+
+  #about-title{
+    text-align: center;
+  }
+
+  .carousel-bit{
+    width: 100%;
+    height: auto;
+  }
+
+  .testimonials {
+    padding: 80px 0;
+    background: url("../IMAGES/vintage-dashboard.jpg") no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .testimonials::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(14, 16, 17, 0.7);
+  }
+  
+  .testimonials .section-header {
+    margin-bottom: 40px;
+  }
+  
+  .testimonials .testimonial-item {
+    text-align: center;
+    color: #fff;
+  }
+  
+  .testimonials .testimonial-item .testimonial-img {
+    width: 100px;
+    border-radius: 50%;
+    border: 6px solid rgba(255, 255, 255, 0.15);
+    margin: 0 auto;
+  }
+  
+  .testimonials .testimonial-item h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0 5px 0;
+    color: #fff;
+  }
+  
+  .testimonials .testimonial-item h4 {
+    font-size: 14px;
+    color: #ddd;
+    margin: 0 0 15px 0;
+  }
+  
+  .testimonials .testimonial-item .quote-icon-left, .testimonials .testimonial-item .quote-icon-right {
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 26px;
+  }
+  
+  .testimonials .testimonial-item .quote-icon-left {
+    display: inline-block;
+    left: -5px;
+    position: relative;
+  }
+  
+  .testimonials .testimonial-item .quote-icon-right {
+    display: inline-block;
+    right: -5px;
+    position: relative;
+    top: 10px;
+  }
+  
+  .testimonials .testimonial-item p {
+    font-style: italic;
+    margin: 0 auto 15px auto;
+    color: #eee;
+  }
+  
+  .testimonials .swiper-pagination {
+    margin-top: 20px;
+    position: relative;
+  }
+  
+  .testimonials .swiper-pagination .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 0.4);
+  }
+  
+  .testimonials .swiper-pagination .swiper-pagination-bullet-active {
+    background-color:rgb(30, 141, 30) ;
+  }
+  
+  @media (min-width: 992px) {
+    .testimonials .testimonial-item p {
+      width: 80%;
+    }
+  }
+
+  #testimonial-heading{
+    text-align: center;
+  }
+
+  .services-section{
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+
+  #services-header{
+    text-align: center;
+  }
+
+  #contact-header{
+    text-align: center;
+  }
+
+  .contact-section{
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+    background-color: rgb(30, 141, 30);
+    color: white;
+  }
+
+  .footer-section{
+    padding: 80px 0;
+    background: url("../IMAGES/shift-gear.jpg") no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    color:rgb(30, 141, 30);
+    font-size: xx-large;
+  
+  }
+
+  #pricing{
+    color: white;
+  }
+  
